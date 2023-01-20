@@ -1,0 +1,50 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+.navbar {
+    display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.home ul{
+    display: flex;
+    list-style: none;
+    word-break: break-all;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+}
+.dropdown-inspiration{
+    display: none;
+}
+.dropdownbtn-inspiration:hover .dropdown-inspiration{
+    display: block;
+    position: fixed;
+    z-index: 1;
+}
+.dropdown-home{
+    display: none;
+}
+.dropdownbtn-home:hover .dropdown-home{
+    display: block;
+    position: fixed;
+    z-index: 1;
+}
+.dropdown-contact{
+    display: none;
+}
+.dropdownbtn-contact:hover .dropdown-contact {
+    display: block;
+    position: fixed;
+    z-index: 1;
+}
+body {
+    background-color: lightblue;
+  }
